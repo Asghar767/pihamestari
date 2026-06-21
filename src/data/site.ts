@@ -39,7 +39,7 @@ export const services: ServiceItem[] = [
   {
     title: "Pihalaatoitus ja kivetykset",
     description:
-      "Tyylikkäät ja kestävät kiveykset pihoille, kulkuväylille ja ajopihoille – huolellisella pohjatyöllä.",
+      "Pihalaatat ja -kivetykset ovat loistovalinta niin pihasi käytäville, autotallin edustalle kuin vaikka puutarhaan – niitä voi asentaa miltei mihin vain. Asiakkaanamme voit valita kivien värit, muodot, koot ja asennuskuviot mielesi mukaan. Jätä meidän huoleksemme varmistaa pihallesi kantava ja routaa pitävä pohja, jossa on oikeaoppiset kallistukset.",
     icon: Shovel,
     bullets: [
       "Pihakivet ja pihalaatat",

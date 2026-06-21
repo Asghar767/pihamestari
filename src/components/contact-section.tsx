@@ -63,15 +63,27 @@ export function ContactSection() {
 
               <Separator className="my-6" />
 
-              <div className="rounded-3xl bg-secondary p-5">
-                <p className="font-semibold">Palvelemme alueilla</p>
-                <p className="mt-2 text-sm text-muted-foreground">Tampereen seutu, Pirkanmaa, Turku ja ympäristökunnat.</p>
-              </div>
+              
             </CardContent>
           </Card>
 
           <Card>
-            <CardContent className="p-6">
+            <CardContent className="flex flex-col justify-center p-6 min-h-[300px]">
+              <div className="flex flex-col items-center justify-center space-y-6 text-center h-full py-8">
+                <p className="text-lg font-medium text-muted-foreground">Ota yhteyttä suoraan:</p>
+                <div className="space-y-4">
+                  <a href={`mailto:${company.email}`} className="flex items-center justify-center gap-3 text-xl sm:text-2xl font-bold text-primary hover:underline">
+                    <Mail className="h-6 w-6" />
+                    {company.email}
+                  </a>
+                  <a href={`tel:${company.phone.replace(/\s+/g, "")}`} className="flex items-center justify-center gap-3 text-xl sm:text-2xl font-bold text-primary hover:underline">
+                    <Phone className="h-6 w-6" />
+                    {company.phone}
+                  </a>
+                </div>
+              </div>
+
+              {/*
               <form className="space-y-4" onSubmit={handleSubmit}>
                 <div className="grid gap-4 sm:grid-cols-2">
                   <Input placeholder="Nimi / yritys" required />
@@ -91,6 +103,7 @@ export function ContactSection() {
                   </p>
                 ) : null}
               </form>
+              */}
             </CardContent>
           </Card>
         </div>

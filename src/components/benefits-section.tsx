@@ -7,8 +7,8 @@ export function BenefitsSection() {
     <section id="benefits" className="bg-secondary/40 py-20">
       <div className="section-shell">
         <SectionHeading
-          eyebrow="Miksi valita meidät"
-          title="Selkeä, luotettava ja viimeistelty tapa toteuttaa piha"
+          eyebrow="Miksi valita meidät?"
+          title="TITLEEEEEEEEEEE"
           description="Vanhan sivuston tärkeimmät myyntiargumentit on tiivistetty tähän modernimpaan, helpommin skannattavaan muotoon."
         />
 
